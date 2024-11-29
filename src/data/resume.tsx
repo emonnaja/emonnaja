@@ -15,6 +15,7 @@ export const DATA = {
     "React",
     "Next.js",
     "Typescript",
+    "SvelteJS",
     "Node.js",
     "Computer Hardware",
     "Cisco",
@@ -24,7 +25,7 @@ export const DATA = {
     "HTML5",
     "Javascript",
     "Bootstrap",
-    "Vite.js",
+    "Vite",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -76,7 +77,7 @@ export const DATA = {
       start: "June 2023",
       end: "May 2024",
       description:
-        "As a Front-End Web Developer at the company, I focus on building and improving features that users interact with, while connecting them to back-end systems through APIs. I collaborate with design and back-end teams to implement new features using modern tools like React or SvelteJS. My work involves creating responsive web applications that work well on all devices, troubleshooting any API issues, and optimizing performance. I keep up with the latest technologies to ensure we deliver a smooth, user-friendly experience that meets both user needs and company goals.",
+        "As a Front-End Web Developer at Tokopedia, I focus on building and improving features that users interact with, while connecting them to back-end systems through APIs. I collaborate with design and back-end teams to implement new features using modern tools like React or SvelteJS. My work involves creating responsive web applications that work well on all devices, troubleshooting any API issues, and optimizing performance. I keep up with the latest technologies to ensure we deliver a smooth, user-friendly experience that meets both user needs and company goals.",
     },
   ],
   education: [
@@ -92,8 +93,8 @@ export const DATA = {
   projects: [
     {
       title: "NontonFilm.",
-      href: "https://nontonfilm.cloud",
-      dates: "Nov 2023 - Now",
+      href: "#",
+      dates: "currently on development.",
       active: true,
       description:
         "Watch all movies and TV series up to 4K resolution without subscribe and login.",
@@ -103,27 +104,19 @@ export const DATA = {
         "PostgreSQL",
         "Typescript",
         "TailwindCSS",
-        "Supabase",
         "Shadcn UI",
         "Magic UI",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://nontonfilm.cloud",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "/project-nontonfilm.png",
       video: "",
     },
     {
       title: "Simple Weather",
-      href: "https://github.com/emonnaja/simple-weather",
+      href: "https://emonnaja.github.io/simple-weather/",
       dates: "November 27rd, 2024",
       active: true,
-      description:
-        "Get weather information currently in your location.",
+      description: "Get Weather information currently in your location.",
       technologies: ["Vite.js", "Javascript"],
       links: [
         {
