@@ -123,7 +123,7 @@ export const DATA = {
       dates: "November 27rd, 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Get weather information currently in your location.",
       technologies: ["Vite.js", "Javascript"],
       links: [
         {
