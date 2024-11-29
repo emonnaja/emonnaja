@@ -1,0 +1,105 @@
+---
+title: "Hello, World!"
+publishedAt: "2024-11-18"
+summary: "My first post on my new blog."
+---
+
+Let's give 👋 to world in some programming languages!
+
+1.  JavaScript
+
+    ```js
+    console.log("Hello, World!");
+    ```
+
+2.  C++
+
+    ```cpp
+    #include <iostream>
+    int main()
+    {
+      std::cout << "Hello, World!" << std::endl;
+      return 0;
+    }
+    ```
+
+3.  Python
+
+    ```py
+    print("Hello, World!")
+    ```
+
+4.  Java
+
+    ```java
+    public class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, World!");
+        }
+     }
+    ```
+
+5.  C
+
+    ```c
+    #include <stdio.h>
+
+    int main() {
+    printf("Hello, World!");
+    return 0;
+    }
+
+    ```
+
+6.  Assembly
+
+    ```asm
+    section .data
+        hello db 'Hello, World!', 0  ; String will be showed
+
+    section .text
+        global _start                  ; Start point program
+
+    _start:
+        mov rax, 1                     ; syscall: write
+        mov rdi, 1                     ; file descriptor: stdout
+        mov rsi, hello                 ; string address
+        mov rdx, 13                    ; string length
+        syscall                         ; call kernel
+
+        mov rax, 60                    ; syscall: exit
+        xor rdi, rdi                   ; exit code: 0
+        syscall                         ; call kernel
+
+    ```
+
+7.  Brainfuck
+
+    ```b
+    >++++++++[<+++++++++>-]<.>+++++++[<+++++++>-]<+.
+    ```
+
+    I wish this will return 'Hello, World!'.
+
+8.  Haskell
+
+    ```hs
+    main :: IO ()
+    main = putStrLn "Hello, World!"
+    ```
+
+9.  Prolog
+
+    ```pl
+    :- initialization(main).
+
+    main :- write('Hello, World!'), nl.
+    ```
+
+10. Rust
+
+    ```rs
+    fn main() {
+        println!("Hello, World!");
+    }
+    ```

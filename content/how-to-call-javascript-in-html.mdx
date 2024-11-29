@@ -1,0 +1,64 @@
+---
+title: "How to Call Javascript in HTML?"
+publishedAt: "2024-11-28"
+summary: "Learn about javascript."
+---
+
+Javascript is a verstatile programming language that plays a crucial role in
+creating interactive and dynamic web experiences. It's one of the core
+technologies of the web, alongside HTML and CSS.
+
+There are two primary ways to call javascript functions within HTML:
+
+Before that, please make a file with .js extension in your root folder. For example, we
+use 'script.js' name file.
+
+1. Inline Event Handlers
+
+   You can assign Javascript functions to HTML elements using event
+   attributes like onClick, onMouseOver, onLoad, etc.
+
+   ```html
+   <button onClick="myFunction()">Click me</button>
+   ```
+
+   You can define myFunction() within a &#10094;script&#10095; tag in your HTML file.
+   When the button is clicked, the function will be executed.
+
+   ```html
+     <body>
+       <button onClick="myFunction()">Click me</button>
+       <script>
+         function myFunction() {
+           console.log("Hello, world!");
+         }
+       </script>
+     </body>
+   </html>
+   ```
+
+   placement of script tags:
+
+   - In the &#10094;head&#10095; tag: Use this if the script needs to be loaded before the page content.
+   - In the end of &#10094;body&#10095;: Use this if the script relies on DOM elements that are loaded
+     after the page content.
+
+2. External Javascript File
+
+   Use the &#10094;script&#10095; tag with src attribute to link an external javascript file:
+
+   ```html
+   <body>
+       <button onClick="myFunction()">Click me</button>
+       <script src="script.js"></script>
+     </body>
+   </html>
+   ```
+
+   In your script.js file:
+
+   ```js
+   function myFunction() {
+     console.log("Hello, world!");
+   }
+   ```
