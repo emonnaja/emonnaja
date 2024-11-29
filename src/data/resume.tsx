@@ -94,7 +94,7 @@ export const DATA = {
     {
       title: "NontonFilm.",
       href: "#",
-      dates: "currently on development.",
+      dates: "Nov 2023 - Now",
       active: true,
       description:
         "Watch all movies and TV series up to 4K resolution without subscribe and login.",
