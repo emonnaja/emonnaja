@@ -69,7 +69,7 @@ export const DATA = {
   work: [
     {
       company: "Tokopedia",
-      href: "https://www.tokocrypto.com",
+      href: "https://www.tokopedia.com",
       badges: [],
       location: "Remote",
       title: "Front-End Web Developer",
@@ -107,7 +107,13 @@ export const DATA = {
         "Shadcn UI",
         "Magic UI",
       ],
-      links: [],
+      links: [
+         {
+          type: "Details",
+          href: "https://github.com/emonnaja/NontonFilm-project",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
       image: "/project-nontonfilm.png",
       video: "",
     },
@@ -143,6 +149,17 @@ export const DATA = {
         "Participated in the scholarship program by learning front-end web development.",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7IWN8TJ32lSQJKl_9cjGdK2pfx_PPsR0aJA&s",
+      mlh: "",
+      links: [],
+    },
+    {
+      title: "IDCH National Youth Digitalk 2024",
+      dates: "December 14rd, 2024",
+      location: "Online",
+      description:
+        "Participated in digital talk with Rea Qintara Dikatio, Iqbal Aqaba, and Sandhika Galih in theme Design Your Future Career In Technology Industry.",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ktu74FMmyGHCErwv6jfpvfRl__IdMDsjAg&s",
       mlh: "",
       links: [],
     },
