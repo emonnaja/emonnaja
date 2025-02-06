@@ -10,7 +10,7 @@ export const DATA = {
   description: "Web developer. Love helping people. Active on Instagram.",
   summary:
     "I am someone who genuinely enjoys learning and collaborating within a team. I am motivated by the challenge of meeting performance goals on time and strive for continuous improvement. While I am a beginner in web development, I have a foundational understanding of the field and am eager to build my skills. Additionally, I have some experience working with English and am working to improve my proficiency in both technical and language skills.",
-  avatarUrl: "/me.jpeg",
+  avatarUrl: "https://s3.tebi.io/shanghai/portofolio/me.jpg",
   skills: [
     "React",
     "Next.js",
@@ -77,14 +77,26 @@ export const DATA = {
       start: "June 2023",
       end: "May 2024",
       description:
-        "As a Front-End Web Developer at Tokopedia, I focus on building and improving features that users interact with, while connecting them to back-end systems through APIs. I collaborate with design and back-end teams to implement new features using modern tools like React or SvelteJS. My work involves creating responsive web applications that work well on all devices, troubleshooting any API issues, and optimizing performance. I keep up with the latest technologies to ensure we deliver a smooth, user-friendly experience that meets both user needs and company goals.",
+        "As a Front-End Web Developer at Tokopedia, I was responsible for developing and maintaining the front-end of the company's website. I worked closely with the design team to implement new features and improve the user experience. I also collaborated with the back-end team to ensure that the front-end and back-end systems were integrated properly. I used a variety of technologies, including React, Next.js, and Tailwind CSS, to build responsive and performant web applications.",
+    },
+    {
+      company: "Pusat Data dan Teknologi Informasi",
+      href: "https://pusdatin.dikdasmen.go.id/",
+      badges: [],
+      location: "Office",
+      title: "IT Assistant",
+      logoUrl: "https://s3.tebi.io/shanghai/portofolio/pusdatin.png",
+      start: "Jan 2024",
+      end: "Feb 2024",
+      description:
+        "As an IT Assistant at Pusat Data dan Teknologi Informasi, I was responsible for providing technical support to Office Staff. I helped troubleshoot hardware and software issues, set up new equipment, and maintained the network. I also assisted with the development of new software and systems, and helped train staff on how to use them. I worked closely with the IT team to ensure that all systems were running smoothly and that any issues were resolved quickly.",
     },
   ],
   education: [
     {
       school: "SMK DARUSSALAM CIPUTAT",
       href: "https://www.instagram.com/smk_darsal36",
-      degree: "high school students",
+      degree: "High School Student",
       logoUrl: "/darsal.jpg",
       start: "2022",
       end: "2025",
