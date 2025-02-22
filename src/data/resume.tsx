@@ -120,6 +120,11 @@ export const DATA = {
         "Magic UI",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://streamo.web.id",
+          icon: <Icons.globe className="size-3" />,
+        },
          {
           type: "Details",
           href: "https://github.com/emonnaja/NontonFilm-project",
