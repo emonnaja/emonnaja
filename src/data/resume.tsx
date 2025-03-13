@@ -104,8 +104,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "NontonFilm.",
-      href: "#",
+      title: "STREAMO.",
+      href: "https://streamo.web.id",
       dates: "Nov 2023 - Now",
       active: true,
       description:
