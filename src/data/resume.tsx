@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://github.com/emonnaja",
   location: "Jakarta, Indonesia",
   locationLink: "https://www.google.com/maps/place/jakarta",
-  description: "Web developer. Love helping people. Active on Instagram.",
+  description: "Web developer. Exited to try new things.",
   summary:
     "I am someone who genuinely enjoys learning and collaborating within a team. I am motivated by the challenge of meeting performance goals on time and strive for continuous improvement. While I am a beginner in web development, I have a foundational understanding of the field and am eager to build my skills. Additionally, I have some experience working with English and am working to improve my proficiency in both technical and language skills.",
   avatarUrl: "https://s3.tebi.io/shanghai/portofolio/me.jpg",
@@ -68,18 +68,6 @@ export const DATA = {
 
   work: [
     {
-      company: "Tokopedia",
-      href: "https://www.tokopedia.com",
-      badges: [],
-      location: "Remote",
-      title: "Front-End Web Developer",
-      logoUrl: "/tokped.jfif",
-      start: "June 2023",
-      end: "May 2024",
-      description:
-        "As a Front-End Web Developer at Tokopedia, I was responsible for developing and maintaining the front-end of the company's website. I worked closely with the design team to implement new features and improve the user experience. I also collaborated with the back-end team to ensure that the front-end and back-end systems were integrated properly. I used a variety of technologies, including React, Next.js, and Tailwind CSS, to build responsive and performant web applications.",
-    },
-    {
       company: "Pusat Data dan Teknologi Informasi",
       href: "https://pusdatin.dikdasmen.go.id/",
       badges: [],
@@ -106,7 +94,7 @@ export const DATA = {
     {
       title: "STREAMO.",
       href: "https://streamo.web.id",
-      dates: "Nov 2023 - Now",
+      dates: "On Development",
       active: true,
       description:
         "Watch all movies and TV series up to 4K resolution without subscribe and login.",
@@ -124,11 +112,6 @@ export const DATA = {
           type: "Website",
           href: "https://streamo.web.id",
           icon: <Icons.globe className="size-3" />,
-        },
-         {
-          type: "Details",
-          href: "https://github.com/emonnaja/NontonFilm-project",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/project-nontonfilm.png",
