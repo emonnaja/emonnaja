@@ -113,8 +113,13 @@ export const DATA = {
           href: "https://streamo.web.id",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Details",
+          href: "https://github.com/emonnaja/streamo-project",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
-      image: "/project-nontonfilm.png",
+      image: "https://github.com/emonnaja/streamo-project/blob/main/streamo-screenshot.jpg?raw=true",
       video: "",
     },
     {
