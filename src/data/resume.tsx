@@ -82,7 +82,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: "SMK DARUSSALAM CIPUTAT",
+      school: "SMK Darussalam Ciputat",
       href: "https://www.instagram.com/smk_darsal36",
       degree: "High School Student",
       logoUrl: "/darsal.jpg",
@@ -100,7 +100,8 @@ export const DATA = {
         "Watch all movies and TV series up to 4K resolution without subscribe and login.",
       technologies: [
         "Next.js",
-        "Javascript",
+        "React",
+        "JavaScript",
         "PostgreSQL",
         "Typescript",
         "TailwindCSS",
@@ -128,7 +129,7 @@ export const DATA = {
       dates: "November 27rd, 2024",
       active: true,
       description: "Get Weather information currently in your location.",
-      technologies: ["Vite.js", "Javascript"],
+      technologies: ["Vite.js", "JavaScript"],
       links: [
         {
           type: "Website",
