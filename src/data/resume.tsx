@@ -119,7 +119,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "https://github.com/emonnaja/streamo-project/blob/main/streamo-screenshot.jpg?raw=true",
+      image: "/streamo-screenshot.jpg",
       video: "",
     },
     {
