@@ -1,4 +1,4 @@
-<img align="center" width="100%" src="https://cdn.streamo.web.id/images/github/cee1f93b5969190e753c324f49442b5f.jpg">
+<img align="center" width="100%" src="https://s3.tebi.io/jakarta/images/cee1f93b5969190e753c324f49442b5f.jpg">
 
 # 💫 About Me:
 I am someone who genuinely enjoys learning and collaborating within a team. I am motivated by the challenge of meeting performance goals on time and strive for continuous improvement. While I am a beginner in web development, I have a foundational understanding of the field and am eager to build my skills. Additionally, I have some experience working with English and am working to improve my proficiency in both technical and language skills.
