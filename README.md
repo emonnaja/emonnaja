@@ -40,7 +40,7 @@ You can email me
 </head>
 <body>
   <h2>Send a email to Emonn</h2>
-  <a href="mailto:justemonn@proton.me?subject=Hi%2C+I+want+say+something+to+you.">
+  <a href="mailto:justemonnproject@gmail.com?subject=Hi%2C+I+want+say+something+to+you.">
     Click Here!
   </a>
 </body>
