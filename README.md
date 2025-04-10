@@ -20,4 +20,31 @@ I am someone who genuinely enjoys learning and collaborating within a team. I am
 	<code>Thankyou for visiting my page ;)</code>
 </p>
 
+
+# 📞 **Contact Me**
+
+> [!IMPORTANT]  
+> Emon is currently facing school graduation exams, messages or pull requests that you submit to me until this notice disappears may be responded to late.
+
+**Please Contact me on Telegram for a quick response:** [@justemonn](https://t.me/justemonn)
+
+or
+
+You can email me
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Send Email</title>
+</head>
+<body>
+  <h2>Send a email to Emonn</h2>
+  <a href="mailto:justemonn@proton.me?subject=Hi%2C+I+want+say+something+to+you.">
+    Click Here!
+  </a>
+</body>
+</html>
+```
+
 You can help me by [Donating](https://streamo.web.id/dukungan)🎁
