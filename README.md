@@ -7,8 +7,8 @@
 <p>I am a student who has a hobby of drawing using CSS and Python, I am very interested in learning new programming languages especially the front-end side of websites and mobile applications, I am not good at ui design but I can implement other people's designs into a responsive web page.</p>
 <br/>
 
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+# 📨 Message from Emon:
+I am currently migrating the database of several projects, especially STREAMO, to the blockchain network. If you find problems with my project on the production side, please make a pull request so that the problem can be resolved as soon as possible, thank you.
 
 
 # 📊 GitHub Stats:
@@ -26,9 +26,6 @@
 
 
 # 📞 **Contact Me**
-
-> [!IMPORTANT]  
-> Emon is currently facing school graduation exams, messages or pull requests that you submit to me until this notice disappears may be responded to late.
 
 **Please Contact me on Telegram for a quick response:** [@justemonn](https://t.me/justemonn)
 
