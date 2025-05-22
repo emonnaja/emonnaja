@@ -50,4 +50,4 @@ You can email me
 </html>
 ```
 
-You can help me by [Donating](https://github.com/emonnaja/Indonesian-IPTV?tab=readme-ov-file#support-me)🎁
+You can help me by [Donating](https://www.streamo.web.id/dukungan)🎁
