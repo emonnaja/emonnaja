@@ -29,6 +29,8 @@ I am currently migrating the database of several projects, especially STREAMO, t
 
 **Please Contact me on Telegram for a quick response:** [@justemonn](https://t.me/justemonn)
 
+**Stay Connected to My Projects:** [Telegram Channel](https://t.me/emonnprjkt)
+
 or
 
 You can email me
