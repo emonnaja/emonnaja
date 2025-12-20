@@ -8,8 +8,8 @@ export default function ResumePage() {
   const [isDarkMode, setIsDarkMode] = useState(true)
 
   return (
-    <div className="relative min-h-screen overflow-hidden flex">
-      <div
+    <section className="relative min-h-screen overflow-hidden flex">
+      <section
         className={`w-1/2 p-8 font-mono relative z-10 ${isDarkMode ? "bg-black text-white" : "bg-white text-black"}`}
       >
         {/* Theme toggle button in top right of left panel */}
@@ -35,37 +35,41 @@ export default function ResumePage() {
         </button>
 
         {/* Header */}
-        <div className="mb-12">
+        <section className="mb-12">
           <h1 className="text-lg font-normal mb-8 flex items-center gap-3">
-            <Image src="https://emonnprjkt.b-cdn.net/images/bocchi-rotate.webp" width={40} height={40} alt="Profile" className="w-10 h-10 rounded-full object-cover" />
+            <Image
+              src={isDarkMode ? "https://emonnprjkt.b-cdn.net/images/bocchi-rotate.webp" : "https://emonnprjkt.b-cdn.net/images/carlotta-kelaita.gif"}
+              alt="Profile"
+              width={40}
+              height={40}
+              className="w-10 h-10 rounded-full object-cover"
+            />
             emonnaja
           </h1>
-          <div className="mb-8">
+          <section className="mb-8">
             <h2 className="text-lg font-normal">EMONN</h2>
             <h3 className="text-lg font-normal">NextJS Developer</h3>
             <p className="mt-4 text-base leading-relaxed">
-              Emon is a web developer who has a strong interest in NextJS, which motivates him to build websites with fast performance like a Formula 1 car. He has recently achieved one of his small goals with NextJS, which is to get a score of 100 from Vercel Speed Insights on the STREAMO project.
+              Emon is a web developer who has a strong interest in NextJS, which motivates him to build websites with fast performance like a Formula 1 car.
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
 
-        {/* Experience Section */}
-        
 
         {/* Footer Links Section */}
-        <div className="absolute bottom-8 left-8">
+        <section className="absolute bottom-8 left-8">
           <a
-            href="https://github.com"
+            href="https://github.com/emonnaja"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg font-mono hover:underline"
           >
             GitHub
           </a>
-        </div>
-      </div>
+        </section>
+      </section>
 
-      <div className="w-1/2 relative">
+      <section className="w-1/2 relative">
         <Dithering
           style={{ height: "100%", width: "100%" }}
           colorBack={isDarkMode ? "hsl(0, 0%, 0%)" : "hsl(0, 0%, 95%)"}
@@ -76,10 +80,10 @@ export default function ResumePage() {
           offsetX={0}
           offsetY={0}
           scale={0.8}
-          rotation={0}
+          rotation={0.1}
           speed={0.1}
         />
-      </div>
-    </div>
+      </section>
+    </section>
   )
 }

@@ -34,11 +34,11 @@ You can email me
 </head>
 <body>
   <h2>Send a email to Emonn</h2>
-  <a href="mailto:justemonnproject@gmail.com?subject=Hi%2C+I+want+say+something+to+you.">
+  <a href="mailto:contact@emonnaja.my.id?subject=Hi%2C+I+want+say+something+to+you.">
     Click Here!
   </a>
 </body>
 </html>
 ```
 
-You can help me by [Donating](https://www.streamo.web.id/dukungan)🎁
+You can help me by [Donating](https://www.streamo.icu/dukungan)🎁
