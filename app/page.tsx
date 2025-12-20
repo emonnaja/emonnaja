@@ -1,65 +1,85 @@
-import Image from "next/image";
+"use client"
 
-export default function Home() {
+import { Dithering } from "@paper-design/shaders-react"
+import Image from "next/image"
+import { useState } from "react"
+
+export default function ResumePage() {
+  const [isDarkMode, setIsDarkMode] = useState(true)
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="relative min-h-screen overflow-hidden flex">
+      <div
+        className={`w-1/2 p-8 font-mono relative z-10 ${isDarkMode ? "bg-black text-white" : "bg-white text-black"}`}
+      >
+        {/* Theme toggle button in top right of left panel */}
+        <button
+          onClick={() => setIsDarkMode(!isDarkMode)}
+          className={`absolute top-8 right-8 p-2 rounded-full transition-colors ${
+            isDarkMode ? "hover:bg-white/10" : "hover:bg-black/10"
+          }`}
+          aria-label="Toggle theme"
+        >
+          {isDarkMode ? (
+            // Sun icon for light mode
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="12" cy="12" r="5" />
+              <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+            </svg>
+          ) : (
+            // Moon icon for dark mode
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          )}
+        </button>
+
+        {/* Header */}
+        <div className="mb-12">
+          <h1 className="text-lg font-normal mb-8 flex items-center gap-3">
+            <Image src="https://emonnprjkt.b-cdn.net/images/bocchi-rotate.webp" width={40} height={40} alt="Profile" className="w-10 h-10 rounded-full object-cover" />
+            emonnaja
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+          <div className="mb-8">
+            <h2 className="text-lg font-normal">EMONN</h2>
+            <h3 className="text-lg font-normal">NextJS Developer</h3>
+            <p className="mt-4 text-base leading-relaxed">
+              Emon is a web developer who has a strong interest in NextJS, which motivates him to build websites with fast performance like a Formula 1 car. He has recently achieved one of his small goals with NextJS, which is to get a score of 100 from Vercel Speed Insights on the STREAMO project.
+            </p>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+
+        {/* Experience Section */}
+        
+
+        {/* Footer Links Section */}
+        <div className="absolute bottom-8 left-8">
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-lg font-mono hover:underline"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+            GitHub
           </a>
         </div>
-      </main>
+      </div>
+
+      <div className="w-1/2 relative">
+        <Dithering
+          style={{ height: "100%", width: "100%" }}
+          colorBack={isDarkMode ? "hsl(0, 0%, 0%)" : "hsl(0, 0%, 95%)"}
+          colorFront={isDarkMode ? "hsl(320, 100%, 70%)" : "hsl(220, 100%, 70%)"}
+          shape="simplex"
+          type="4x4"
+          pxSize={3}
+          offsetX={0}
+          offsetY={0}
+          scale={0.8}
+          rotation={0}
+          speed={0.1}
+        />
+      </div>
     </div>
-  );
+  )
 }
