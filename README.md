@@ -10,7 +10,7 @@
 
 # 📈 **Counter**
 <p align="center">
-	<img src="https://count.getloli.com/get/@emonnaja?theme=booru-smtg" alt="emonnaja's visitor counter"/>
+	<img src="https://count.getloli.com/get/@emonnaja?theme=rule34" alt="emonnaja's visitor counter"/>
 	<br><br>
 	<code>Thankyou for visiting my page ;)</code>
 </p>
