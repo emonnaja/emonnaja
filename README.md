@@ -40,5 +40,3 @@ You can email me
 </body>
 </html>
 ```
-
-You can help me by [Donating](https://www.streamo.icu/dukungan)🎁
