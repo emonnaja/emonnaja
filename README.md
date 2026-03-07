@@ -4,7 +4,7 @@
 <a href="#">
     <img align="left" width="100" src="https://cdn.emonnaja.my.id/images/sip.gif">
 </a>
-<p>Emon is a web developer who has a strong interest in Next.js, which motivates him to build websites with fast performance. He has recently achieved one of his small goals with NextJS, which is to get a score of 100 from Vercel Speed Insights on the STREAMO project.</p>
+<p>Emon is a web developer who has a strong interest in Next.js, which motivates him to build websites with fast performance like a Formula 1 car.</p>
 <br/>
 
 
