@@ -1,8 +1,8 @@
-<img align="center" width="100%" src="https://cdn.emonnaja.my.id/images/carlotta_cutted.png">
+<img align="center" width="100%" src="https://cdn.emonnaja.com/images/carlotta_cutted.png">
 
 # 💫 About Me:
 <a href="#">
-    <img align="left" width="100" src="https://cdn.emonnaja.my.id/images/sip.gif">
+    <img align="left" width="100" src="https://cdn.emonnaja.com/images/sip.gif">
 </a>
 <p>Emon is a web developer who has a strong interest in Next.js, which motivates him to build websites with fast performance like a Formula 1 car.</p>
 <br/>
